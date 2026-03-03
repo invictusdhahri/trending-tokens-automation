@@ -1,0 +1,32 @@
+{
+  "name": "trending-tokens-post",
+  "version": "1.0.0",
+  "description": "Automated Twitter bot for posting daily trending Solana memecoins",
+  "main": "dist/main.js",
+  "type": "module",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsx src/main.ts"
+  },
+  "keywords": [
+    "solana",
+    "crypto",
+    "twitter",
+    "bot",
+    "memecoins"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "twitter-api-v2": "^1.17.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.1"
+  }
+}
